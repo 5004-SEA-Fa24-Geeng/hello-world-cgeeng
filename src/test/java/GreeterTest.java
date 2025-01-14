@@ -106,6 +106,7 @@ public class GreeterTest {
      */
     @Test
     public void testToString() {
+        //System.out.println(greeter.getLocality());
         assertEquals("{name:\"John\", locality:\"Hawaii\"}", greeter.toString());
         assertEquals("{name:\"Alice\", locality:\"China\"}", greeter4.toString());
     }
