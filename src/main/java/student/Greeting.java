@@ -202,6 +202,4 @@ public class Greeting {
                 localityID, localityName, asciiGreeting, unicodeGreeting);
     }
 
-
-
 }
